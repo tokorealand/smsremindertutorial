@@ -1,0 +1,35 @@
+{
+	"app": {
+		"timezone": "America/New_York"
+	},
+
+	"me": {
+		"phone_number": "+1 ****** "
+	},
+
+	"db": {
+		"host": "localhost",
+		"user": "root",
+		"password": "pass",
+		"database": "app"
+	},
+
+	"google":{
+		"client_id": "****",
+		"client_secret": "*****",
+		"redirect_uri": "http://localhost:3000",
+		"access_type": "offline",
+		"scopes": [
+  			"https://www.googleapis.com/auth/plus.me",
+  			"https://www.googleapis.com/auth/calendar"
+		]
+	},
+
+
+	"twilio": {
+		"sid": "****",
+		"secret": "*****",
+		"phone_number": "+1 ****"
+	}
+
+}
